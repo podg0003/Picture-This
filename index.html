@@ -18,6 +18,57 @@
     <img src="images/museum.jpg" alt="placeholder">
 
   </header>
+
+  <section>
+    <!-- Landscape view -->
+
+    <picture>
+
+      <source srcset="museum-320x.jpg,
+                      museum-640x.jpg 2x,
+                      museum-960x.jpg 3x"
+              media="(max-width: 320px)">
+      
+      <source srcset="museum-480x.jpg,
+                      museum-960x.jpg 2x,
+                      museum-14400x.jpg 3x"
+              media="(max-width: 480px)">
+              
+      <source srcset="museum-720x.jpg,
+                      museum-1440x.jpg 2x,
+                      museum-2160x.jpg 3x"
+              media="(max-width: 720px)">
+      
+      <source srcset="museum-959x.jpg,
+                      museum-1920x.jpg 2x,
+                      museum-2880x.jpg 3x"
+              media="(max-width: 959px)">
+
+    </picture>
+  </section>
+
+  <section>
+    <picture>
+      <source srcset="museum-800x800.jpg,
+                      museum-1600x1600.jpg 2x,
+                      museum-2400x2400.jpg 3x"
+              media="(min-width: 1600px)">
+      
+      
+      <source srcset="museum-640x640.jpg,
+                      museum-1280x1280.jpg 2x,
+                      museum-1920x1920.jpg 3x"
+              media="(min-width: 1280px)">
+
+
+      <source srcset="museum-480x480.jpg,
+                      museum-960x960.jpg 2x,
+                      museum-1440x1440.jpg 3x"
+              media="(min-width: 960px)">
+    </picture>
+
+
+  </section>
 </body>
 
 </html>
